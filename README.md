@@ -33,11 +33,9 @@ This website is to act as a portfolio to store information and projects for the 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+The TA's at BCS helped troubleshoot through 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Template photos and the background photo were found through pixabay.com and pexels.com
 
 
 ## License
