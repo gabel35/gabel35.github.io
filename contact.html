@@ -11,44 +11,55 @@
     <title>gabel35's Portfolio</title>
 </head>
 
-<body id="bg">
+<body id="bgc">
   <!-- Navbar consistent with other pages with working links -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="index.html">
-      <img src="assets/images/bella_icon.png" width="30" height="30" class="d-inline-block align-top" alt="My portfoliio's icon, my dog, Bella's head">Gabel35</a>
+    <img src="assets/images/bella_icon.png" width="30" height="30" class="d-inline-block align-top" alt="My portfoliio's icon, my dog, Bella's head">Gabel35</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
       
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link navTextColor" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link navTextColor" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link navTextColor" href="aboutMe.html">About Me</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item">
           <a class="nav-link navTextColor" href="portfolio.html">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link navTextColor" href="contact.html">Contact</a>
+        <li class="nav-item active">
+          <a class="nav-link navTextColor" href="contact.html">Contact<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
   </nav>
-
-  <br>
-
-  <!-- Welcome page jumotron -->
-  <section class="container-sm container-md container-lg container-xl">
-    <div class="jumbotron jumbotron-fluid" id="allEdges">
-      <div class="container">
-        <h2 class="display-4" style="font-size: large;">Welcome to </h2>
-        <h1 class="display-4">Gabriel J. Sanchez's Portfolio!</h1>
-      </div>
-    </div>
-  </section>
+   
+<br>
+  <!-- Card component where user can add their name, email, and a message to submit to me -->
+  <main class="container-sm container-md container-lg container-xl card" style="width: 18rem;">
+    <section class="card-body">
+      <h1 class="card-title">Contact Me</h1>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputName">Name</label>
+          <input type="text" class="form-control" id="exampleInputName">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea class="form-control" id="exampleInputEmail"></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning">Submit</button>
+      </form>
+    </section>
+  </main>
 
 <!-- EDNs for the hamburger navbar, when page on a smaller screen -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

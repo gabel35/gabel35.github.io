@@ -1,0 +1,52 @@
+/* backgrounds for each page */
+#bg {
+    background: url(../images/bella_background.png) no-repeat center;
+    background-size: cover;
+}
+#bgc {
+    background: url(https://images.pexels.com/photos/326240/pexels-photo-326240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) repeat center;
+    background-size: cover;
+}
+
+/* Style the container the content of each page is on */
+#allEdges {
+    margin: 5% auto;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+section {
+    padding: 10px;
+}
+
+h1 {
+    border-bottom: solid thin black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(202, 139, 149);
+}
+
+/* Style picture on about me page */
+#myPic {
+    border: solid;
+    border-color: pink;
+}
+
+/* Style pictures and content on portfolio page */
+.portfolioPic {
+    padding: 2px;
+}
+
+.portfolioPic .text {
+    position:center;
+    color: rgb(255, 183, 233);
+    visibility:hidden;
+    }
+    
+    .portfolioPic:hover {
+        filter: brightness(50%);
+    }
+
+    .portfolioPic:hover .text {
+        visibility: visible;
+    }
+
