@@ -27,7 +27,7 @@ This website is to act as a portfolio to store information and projects for the 
 
 
 ```md
-![Gabriel's Portfolio Page](assets/images/screenshot.png)
+![Gabriel's Portfolio Page](https://github.com/gabel35/gabel35.github.io/blob/master/Assets/Images/screenshot.PNG)
 ```
 
 
