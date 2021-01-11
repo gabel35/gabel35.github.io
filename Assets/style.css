@@ -1,8 +1,8 @@
 /* backgrounds for each page */
 /* #bg {
-    background: url(Images/bella_background.png) no-repeat center;
-    background-size: cover;
-} */
+    display: flex;
+    flex-direction: column;
+}  */
 
 #bgCarousel {
     width: 100%;
@@ -62,3 +62,24 @@ h1 {
         visibility: visible;
     }
 
+
+.footer {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(202, 139, 149);
+    background-color: rgba(255, 255, 255, 0.74);
+    font-size: 11px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+    
+    .footer h4 {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .footer p {
+        margin: 0;
+    }
