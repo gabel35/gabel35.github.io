@@ -4,7 +4,7 @@ var carouselDiv = $(".carousel-inner");
 for (let i = 0; i<bgImgs.length; i++){
     var carouselImgs = $(`
     <div id="carousel-items" class="carousel-item">
-        <img class="d-block w-100" src="../Assets/Images/background/bella${bgImgs[i]}.JPG" alt="Pictures of my dog, Bella" style="width:30%;height:30%;margin:50px;">
+        <img class="d-block w-100" src="../Assets/Images/background/bella${bgImgs[i]}.JPG" alt="Pictures of my dog, Bella" style="">
     </div>`);
     carouselDiv.append(carouselImgs);
 }
