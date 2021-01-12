@@ -35,3 +35,13 @@ $("#spyGlass").on("click", function () {
 $("#sgRepo").on("click", function () {
     window.location.href = "https://github.com/gabel35/Spyglass";
 })
+
+// LinkedIn Link //
+$("#linkedIn").on("click", function () {
+    window.open("https://www.linkedin.com/in/gabriel-sanchez-919b88a1");
+})
+
+// Github Link //
+$("#gitHub").on("click", function () {
+    window.open("https://github.com/gabel35");
+})
