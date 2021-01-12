@@ -4,8 +4,34 @@ var carouselDiv = $(".carousel-inner");
 for (let i = 0; i<bgImgs.length; i++){
     var carouselImgs = $(`
     <div id="carousel-items" class="carousel-item">
-        <img class="d-block w-100" src="../Assets/Images/background/bella${bgImgs[i]}.JPG" alt="Pictures of my dog, Bella">
+        <img class="d-block w-100" src="../Assets/Images/background/bella${bgImgs[i]}.JPG" alt="Pictures of my dog, Bella" style="width:30%;height:30%;margin:50px;">
     </div>`);
     carouselDiv.append(carouselImgs);
 }
 
+// What Weather Button Links //
+$("#whatWeather").on("click", function () {
+    window.location.href = "https://gabel35.github.io/What_Weather";
+})
+
+$("#wwRepo").on("click", function () {
+    window.location.href = "https://github.com/gabel35/What_Weather";
+})
+
+//9-to-5 Planner Button Links //
+$("#hourlyPlanner").on("click", function () {
+    window.location.href = "https://gabel35.github.io/9-to-5_Planner/";
+})
+
+$("#hpRepo").on("click", function () {
+    window.location.href = "https://github.com/gabel35/9-to-5_Planner";
+})
+
+// Spyglass Button Links //
+$("#spyGlass").on("click", function () {
+    window.location.href = "https://gabel35.github.io/Spyglass/";
+})
+
+$("#sgRepo").on("click", function () {
+    window.location.href = "https://github.com/gabel35/Spyglass";
+})
