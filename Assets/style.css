@@ -62,6 +62,14 @@ h1 {
         visibility: visible;
     }
 
+.appPics {
+    border:solid;
+    border-color: rgb(202, 139, 149);
+}
+
+.portfolioBtn {
+    background-color: rgb(202, 139, 149);
+}
 
 .footer {
     margin: 0;
