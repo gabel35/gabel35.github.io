@@ -4,10 +4,30 @@ var carouselDiv = $(".carousel-inner");
 for (let i = 0; i<bgImgs.length; i++){
     var carouselImgs = $(`
     <div id="carousel-items" class="carousel-item">
-        <img class="d-block w-100" src="./Assets/Images/background/bella${bgImgs[i]}.JPG" alt="Pictures of my dog, Bella" style="">
+        <img class="d-block w-100" src="../Assets/Images/background/bella${bgImgs[i]}.JPG" alt="Pictures of my dog, Bella" style="">
     </div>`);
     carouselDiv.append(carouselImgs);
 }
+
+
+// Name <input id="exampleInputName">
+// Email address <input id="exampleInputEmail1"
+// Message <textarea id="exampleInputEmail"
+// Submit id="contactBtn" 
+
+
+$("#contactBtn").on("click", function emailMe(){
+    event.preventDefault();
+    var name = $("#exampleInputName").val()
+    var email = $("#exampleInputEmail1").val()
+    var message = $("#exampleInputEmail").val()
+
+    console.log(name)
+    console.log(email)
+
+    window.open(`mailto:GabrielJose3135@gmail.com?subject=Github_Message&body=name:${name}email:${email}message:${message}`);
+})
+
 
 // // What Weather Button Links //
 // $("#whatWeather").on("click", function () {
