@@ -1,16 +1,19 @@
 /* backgrounds for each page */
-/* #bg {
-    display: flex;
-    flex-direction: column;
-}  */
+ body {
+    background: url("/Assets/Images/bella_background.png")
+    no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+} 
 
-#bgCarousel {
+/* #bgCarousel {
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: -1;
     opacity: .8;
-}
+} */
 
 #introP {
     z-index: 10;
@@ -18,6 +21,9 @@
 #bgc {
     background: url(https://images.pexels.com/photos/326240/pexels-photo-326240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) repeat center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* Style the container the content of each page is on */
@@ -81,22 +87,12 @@ h1 {
 }
 
 .footer {
-    margin: 0;
-    padding: 0;
-    clear: both;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(202, 139, 149);
     background-color: rgba(255, 255, 255, 0.74);
     font-size: 11px;
-    grid-row-start: 2;
-    grid-row-end: 3;
 }
-    
-    .footer h4 {
-        margin-bottom: 0;
-        font-size: 15px;
-    }
-    .footer p {
-        margin: 0;
-    }
+

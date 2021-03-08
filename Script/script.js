@@ -1,14 +1,17 @@
-var bgImgs = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-var carouselDiv = $(".carousel-inner");
+// var bgImgs = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+// var carouselDiv = $(".carousel-inner");
 
-for (let i = 0; i<bgImgs.length; i++){
-    var carouselImgs = $(`
-    <div id="carousel-items" class="carousel-item">
-        <img class="d-block w-100" src="../Assets/Images/background/bella${bgImgs[i]}.JPG" alt="Pictures of my dog, Bella" style="">
-    </div>`);
-    carouselDiv.append(carouselImgs);
-}
+// for (let i = 0; i<bgImgs.length; i++){
+//     var carouselImgs = $(`
+//     <div id="carousel-items" class="carousel-item">
+//         <img class="d-block w-100" src="/Assets/Images/background/bella${bgImgs[i]}.JPG" alt="Pictures of my dog, Bella" style="">
+//     </div>`);
+//     carouselDiv.append(carouselImgs);
+// }
 
+
+
+// document.body.style.backgroundImage = "url('/Assets/Images/background')";
 
 // Name <input id="exampleInputName">
 // Email address <input id="exampleInputEmail1"
@@ -16,7 +19,7 @@ for (let i = 0; i<bgImgs.length; i++){
 // Submit id="contactBtn" 
 
 
-$("#contactBtn").on("click", function emailMe(){
+$("#contactBtn").on("click", function emailMe(event){
     event.preventDefault();
     var name = $("#exampleInputName").val()
     var email = $("#exampleInputEmail1").val()
